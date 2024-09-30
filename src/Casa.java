@@ -9,10 +9,6 @@ public class Casa {
 
     Scanner sc=new Scanner(System.in);
 
-    public Casa(String numecasa){
-        this.numecasa=numecasa;
-    }
-
     public Casa(){
         setNumeCasa();
         setCamere();

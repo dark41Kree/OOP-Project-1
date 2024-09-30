@@ -14,14 +14,14 @@ public class Camera {
 
     }
 
-    public void setNume(){
+    private void setNume(){
         System.out.println("Introduceti numele camerei:");
         this.nume=sc.next();
     }
     public String getNume(){
         return this.nume;
     }
-    public void setVolume(){
+    private void setVolume(){
         System.out.println("Setati volumul camerei:");
         this.volume=sc.nextInt();
 
