@@ -44,7 +44,7 @@ public class Main {
                         case 3:
                             if(CheckInitHome.check(casa1)) {break;}
                                 for(int i=0;i<Casa.nrcamere;i++){
-                                    System.out.println("Casa "+(i+1));
+                                    System.out.println("Camera "+(i+1));
                                     System.out.println("Nume: "+casa1.camera[i].getNume());
                                     System.out.println("Volumul: "+casa1.camera[i].getVolume());
                                     System.out.println();
